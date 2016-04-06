@@ -1,7 +1,7 @@
 {
   "name": "ember-cli-animated-header",
   "version": "0.0.1",
-  "description": "The default blueprint for ember-cli addons.",
+  "description": "A fixed header that will animate its size on scroll.",
   "directories": {
     "doc": "doc",
     "test": "tests"
@@ -11,11 +11,11 @@
     "start": "ember server",
     "test": "ember try:testall"
   },
-  "repository": "",
+  "repository": "https://github.com/imfly/ember-cli-animated-header.git",
   "engines": {
     "node": ">= 0.10.0"
   },
-  "author": "",
+  "author": "imfly",
   "license": "MIT",
   "devDependencies": {
     "broccoli-asset-rev": "^2.4.2",
@@ -40,7 +40,11 @@
     "loader.js": "^4.0.1"
   },
   "keywords": [
-    "ember-addon"
+    "ember-addon",
+    "ember-cli",
+    "ember"
+    "animated-header",
+    "ebookchain"
   ],
   "dependencies": {
     "ember-cli-babel": "^5.1.6",
