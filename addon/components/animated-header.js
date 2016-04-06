@@ -15,7 +15,7 @@ function scrollPage() {
 }
 
 function scrollY() {
-  return $window.pageYOffset || $document.scrollTop()
+  return $window.pageYOffset || $document.scrollTop();
 }
 
 export default Ember.Component.extend(Scroller, {
@@ -29,6 +29,5 @@ export default Ember.Component.extend(Scroller, {
 
   scrolled: function() {
     scrollPage();
-    console.log("ok");
   }
 });
